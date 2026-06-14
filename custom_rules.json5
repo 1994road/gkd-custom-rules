@@ -1,0 +1,315 @@
+{
+  "id": 888,
+  "name": "定制版开屏跳过订阅",
+  "version": 2,
+  "author": "Antigravity",
+  "categories": [
+    {
+      "key": 0,
+      "name": "开屏广告",
+      "enable": true
+    }
+  ],
+  "apps": [
+    {
+      "id": "ctrip.android.view",
+      "name": "携程旅行",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"ctrip.android.view:id/tv_laputa_splash_skip\" || id=\"ctrip.android.view:id/tv_splash_skip\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "air.tv.douyu.android",
+      "name": "斗鱼",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"air.tv.douyu.android:id/tv_skip\" || id=\"air.tv.douyu.android:id/skip_btn\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.taobao.trip",
+      "name": "飞猪",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"com.taobao.trip:id/tv_splash_skip\" || id=\"com.taobao.trip:id/skip_percent\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.xiaomi.market",
+      "name": "小米应用商店",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"com.xiaomi.market:id/skip_button\" || id=\"com.xiaomi.market:id/tv_skip\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.miui.securitycenter",
+      "name": "小米手机管家",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"com.miui.securitycenter:id/tv_skip\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.miui.player",
+      "name": "小米音乐",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"com.miui.player:id/tv_skip\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.miui.video",
+      "name": "小米视频",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"com.miui.video:id/tv_skip\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.mipay.wallet",
+      "name": "小米钱包",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"com.mipay.wallet:id/tv_skip\" || id=\"com.mipay.wallet:id/skip\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.miui.weather2",
+      "name": "小米天气",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"com.miui.weather2:id/tv_skip\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.miui.cleanmaster",
+      "name": "小米垃圾清理",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"com.miui.cleanmaster:id/tv_skip\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.xiaomi.gamecenter",
+      "name": "小米游戏中心",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"com.xiaomi.gamecenter:id/tv_skip\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.android.browser",
+      "name": "小米浏览器",
+      "groups": [
+        {
+          "key": 0,
+          "name": "开屏广告",
+          "desc": "自动跳过开屏广告",
+          "quickFind": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "[id=\"com.android.browser:id/tv_skip\" || text*=\"跳过\" || desc*=\"跳过\"]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
